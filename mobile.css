@@ -1,0 +1,230 @@
+
+
+/* ----------- Responsive Styling */
+@media (max-width:500px) {
+
+    nav {
+        height: 20vh;
+        padding: 3vw 5vw;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-left h1 {
+        text-transform: uppercase;
+        font-size: 6vw;
+        font-weight: 900;
+        line-height: 0.9;
+    }
+
+    .nav-right h4 {
+        font-size: 4vw;
+        font-weight: 300;
+        margin: 1vw 5vw;
+    }
+
+    #page1{
+        min-height: 50vh;
+    }
+
+    #page1-content{
+        margin-top: 15vh;
+        padding: 1vw 1vw;
+    }
+
+    #page1-content h1 {
+        text-transform: uppercase;
+        font-size: 15vw;
+        line-height: 0.3;
+        text-align: center;
+        /* margin-top: 9vw; */
+    }
+
+    #page2 {
+        min-height: 80vh;
+        width: 100vw;
+    }
+    
+    .book-img img{
+        margin-top: 20vw;
+        height: 90vw;
+    }
+
+    
+#page3{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 2vw 2vw;
+    border-top: 1px solid #141313;
+}
+#elem-container{
+    display: flex;
+    flex-direction: column;
+}
+.elem{
+    height: 92vh;
+    width: 96%;
+    background-color: black;
+    margin: 1.5vw 0.7vw;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box{
+    height: 50px;
+    width: 70%;
+    /* background-color: rgb(143, 185, 161); */
+    z-index: 9;  /* taki image ke uppar rahe*/
+    position: absolute;  /* taki .elem ke absolute raehe*/
+    top: 40%;
+    left: 15%;
+    border-radius: 25px;
+    padding: 2vw 5vw;
+}
+
+.box h3{
+    font-size: 3vw;
+    opacity: .7;
+}
+.box h4{
+    font-size: 3vw;
+    opacity: .8;
+}
+.box-1{
+    background-color: #e5f0d6;
+}
+.box-2{
+    background-color: #f5dfcf;
+}
+.box-3{
+    background-color: #fff;
+}
+
+
+#page3-text-content{
+    min-height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#page3-text-content .left{
+    height: 50%;
+    width: 100%;
+    text-transform: uppercase;
+    /* background-color: green; */
+    color: black;
+    margin-bottom: 5vw;
+}
+#page3-text-content .left h2{
+    font-size: 7.9vw;
+    line-height: 1.1;
+}
+#page3-text-content .right{
+    height: 95%;
+    width: 100%;
+    padding: 5vw;
+    margin-right: 5vw;  /* taki left mai kisak jaye */
+    /* background-color: white; */
+    text-align: center;
+}
+#page3-text-content .right p{
+    font-family: sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.underline{
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+#page4{
+    min-height: 100vh;
+    padding: 20vw 2vw 5vw 2vw;
+    /* background-color: black; */
+}
+
+.page4-content{
+    min-height: 90vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* background-color: red; */
+    color: black;
+}
+.page4-content h2{
+    font-size:7vw;
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 40vw;
+}
+.page4-content button{
+    font-size: 2.4vw;
+    padding: 20px 80px;
+    margin-bottom: 7vw;
+}
+.page4-content p{
+    font-size: 3.5vw;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+
+
+#page5{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 3vw 2vw;
+    /* background-color: #dadada; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page5 .left-content{
+    max-height: 75vh;
+    width: 100%;
+    padding: 2vw 3vw;
+    /* background-color: red; */
+}
+#page5 .left-content h2{
+    font-size: 6vw;
+    text-transform: uppercase;
+    margin-bottom: 10vw;
+}
+#page5 .left-content p{
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+.how-we-do-it{
+    width: 50%;
+}
+#page5 .right-images{
+    max-height: 40vh;
+    width: 100%;
+    padding: 1vw 3vw;
+    /* background-color: red; */
+    flex-direction: column;
+}
+.right-images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2vw;
+}
+
+
+}
